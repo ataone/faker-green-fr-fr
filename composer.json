@@ -1,7 +1,7 @@
 {
-    "name": "fakerphp/faker",
+    "name": "ataone/faker-green-fr-fr",
     "type": "library",
-    "description": "Faker is a PHP library that generates fake data for you.",
+    "description": "Faker is a PHP library that generates fake data for you. This is a \"green\" fork with only two locales: en_US and fr_FR.",
     "keywords": [
         "faker",
         "fixtures",
@@ -11,6 +11,9 @@
     "authors": [
         {
             "name": "François Zaninotto"
+        },
+        {
+            "name": "Gaëtan Noël"
         }
     ],
     "require": {
@@ -35,7 +38,8 @@
         }
     },
     "conflict": {
-        "fzaninotto/faker": "*"
+        "fzaninotto/faker": "*",
+        "fakerphp/faker": "*"
     },
     "suggest": {
         "ext-curl": "Required by Faker\\Provider\\Image to download images.",
