@@ -11,6 +11,6 @@ In conclusion, this unofficial repository is Faker, but only with two locales su
 * en_US : the default one.
 * fr_FR : the one which I need (and maybe you too)
 
-## Documentation
+## Documentation & License
 
 See [the official documentation](https://github.com/FakerPHP/Faker): the only change is the removal of unnecessary providers.
